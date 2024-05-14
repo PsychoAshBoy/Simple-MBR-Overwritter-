@@ -1,0 +1,11 @@
+This is Master boot Record (MBR) Overwritter that sets the MBR size to 0. This is a extremely dangerous project!  
+Those who don't know What MBR is then, The MBR is the most essential part of booting of windows. If your MBR is corrupted or damaged then your system will not continue to windows. 
+
+MBR is divided into 5 phases:-
+
+1.Bootloader = 440 bytes
+2.Disc Signature = 4 bytes
+3.Empty signature = 2 bytes
+4.4 partition table entries = 64 bytes
+5. MBR signature = 2 bytes
+This is for educational purposes only, please don't steal and execute the code. 
